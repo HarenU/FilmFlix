@@ -7,7 +7,7 @@ import deleteData
 def menuOptions():
     options = 0
     while options not in ["1", "2", "3", "4", "5", ""]:
-        print("Songs Menu options \nEnter \n1. Print \n2. Add. \n3. Update.\n4. Delete.\n5. Search")
+        print("Film Menu options \nEnter \n1. Print \n2. Add. \n3. Update.\n4. Delete.\n5. Search")
 
         options = input(
             "Enter one of the options listed above (Press Enter to exit): ")
